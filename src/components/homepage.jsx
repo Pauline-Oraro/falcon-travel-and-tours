@@ -26,7 +26,7 @@ const HomePage = () => {
                 <img src={Safari} alt="Falcon travel and tours on safari"/>
                 <div className="section-statement">
                     <h2>Who Are We?</h2>
-                    <p>At Falcon Travel and Tours, we are your trusted partner in creating unforgettable travel experiences across the landscapes of Kenya and Tanzania. We specialize in creating tours that immerse you in iconic wildlife and stunning natural wonders of East Africa. With a deep passion for exploration, we pride ourselves on delivering personalized service, seamless travel planning, and authentic adventures that create lasting memories. With years of experience  and a deep love for exploration, Falcon Travel and Tours is committed to creating journeys that leave lasting memories. Discover the heart of Africa with us and experience travel like never before.</p>
+                    <p>At Falcon Travel and Tours, we are your trusted partner in creating unforgettable travel experiences across the landscapes of Kenya and Tanzania. We specialize in creating tours that immerse you in iconic wildlife and stunning natural wonders of East Africa. With a deep passion for exploration, we pride ourselves on delivering personalized service, seamless travel planning, and authentic adventures that create lasting memories. With years of experience  and a deep love for exploration, Falcon Travel and Tours is committed to creating journeys that leave lasting memories. </p>
                 </div>
             </section>
 
