@@ -54,10 +54,13 @@ const HomePage = () => {
 
             </section>
 
-            <section className="faq-section">
-                <img src={Wildlife} alt="Falcon Travel and Tours"/>
+            <section className="faq">
+                <h2>Why You Should Choose Our Travel Services.</h2>
+                
+                <div className="faq-section">
+                    <img src={Wildlife} alt="Falcon Travel and Tours"/>
                 <div className="faqs">
-                    <h1>Why You Should Choose Our Travel Services.</h1>
+                    <h3>Frequently Asked Questions</h3>
                     <div className="questions">
                     <div className="questionTab">
                         <input 
@@ -108,6 +111,8 @@ const HomePage = () => {
                     </div>
                     </div>
                 </div>
+                </div>
+                
             </section>
 
             <section className="home-section-3">

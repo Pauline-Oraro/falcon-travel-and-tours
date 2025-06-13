@@ -305,11 +305,20 @@ a{
 */
 
 
+/*faqs sections*/
+.faq{
+  display: flex;
+  flex-direction: column;
+}
+
+.faq h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
 
 .faq-section{
-  margin: 10% 0;
-  display:flex;
-  flex-direction: row;
+  margin: 20px 0;
+  display: flex;
   gap: 20px;
   width: 100%;
 }
@@ -326,12 +335,24 @@ a{
   gap: 10px;
 }
 
-.faqs h1{
+.faqs h3{
   font-size: 20px;
+  color: #ddb892;
+  font-weight: bold;
 }
 
-
-
+@media only screen and (max-width: 750px){
+  .faq-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .faq-section img{
+    width: 100%;
+    margin: 0;
+  }
+}
 
 .questions{
   display: flex;
