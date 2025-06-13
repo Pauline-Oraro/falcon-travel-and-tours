@@ -231,7 +231,7 @@ a{
 }
 
 
-
+/*home destination section*/
 
 .home-destination-section{
   background-color: #ddb892;
@@ -256,25 +256,39 @@ a{
 
 .home-destinations{
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
   justify-content: center;
   margin-bottom: 30px;
+  width: 100%;
 }
 
 .destination-image{
   border: 2px solid #000000;
-  border-radius: 10px;
-  width: 20%;
+
+  width: 25%;
+  margin: 20px;
 }
 
 .destination-image img{
   width: 100%;
   height: 200px;
-  border-radius: 10px;
+  
 }
 
+
+@media only screen and (max-width:750px){
+  .home-destinations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+  }
+  .destination-image{
+    width: 80%;
+  }
+}
+/*
 .destination-button{
   width: 25%;
   background-color: #000000;
@@ -284,10 +298,11 @@ a{
   margin-left: 10px;
   
 }
+
 .destination-button a{
   color: #ffffff;
 }
-
+*/
 
 
 
