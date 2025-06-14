@@ -116,7 +116,7 @@ const HomePage = () => {
             </section>
 
             <section className="home-section-3">
-                <h1>Why Book Your Tour</h1>
+                <h2>Why Book Your Tour</h2>
                 <p>At Falcon Travel and Tours, we are your trusted partner in creating unforgettable travel experiences across the landscapes of Kenya and Tanzania. </p>
 
             <div className="about-section-5">
@@ -131,9 +131,7 @@ const HomePage = () => {
                             <h3>Seamless Travel Planning.</h3>
                             
                         </div>
-                    </div>
-                    <div className="reasons-section-2">
-                        <div className="reasons-card">
+                         <div className="reasons-card">
                             <h3>Safety and Comfort Guaranteed.</h3>
                             
                         </div>
@@ -141,7 +139,8 @@ const HomePage = () => {
                             <h3>Transparent Pricing</h3>
                             
                         </div>
-                    </div>  
+                    </div>
+                      
                 </div>
 
             
@@ -152,7 +151,7 @@ const HomePage = () => {
             </section>
 
             <div className="about-blogs">
-                <h1>Travel Article Enthusiast</h1>
+                <h2>Travel Article Enthusiast</h2>
                 <div className="blog-card">
                     <div className="blog-card-body">
                         <img src={BlogOne} />
