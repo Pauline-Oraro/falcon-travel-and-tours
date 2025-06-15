@@ -1,4 +1,4 @@
-
+import "../css/home.css"
 import Falcon from "../assets/images/falcon-travel-and-tours.jpg";
 import Safari from "../assets/images/falcon-travel-and-tours-on-safari.jpg"
 import MaasaiMara from "../assets/images/masai-mara.jpg";
