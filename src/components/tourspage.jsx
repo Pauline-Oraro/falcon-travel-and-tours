@@ -1,3 +1,4 @@
+import "../css/tours.css"
 import HeroImage from "../assets/images/hero-image.jpg"
 import { Link } from "react-router-dom";
 import MasaaiMara from "../assets/images/masai-mara.jpg";

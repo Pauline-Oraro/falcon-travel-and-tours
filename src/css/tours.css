@@ -1,0 +1,89 @@
+/*TOURS*/
+.tours{
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.tours h1{
+  text-align: center;
+  font-size: 25px;
+  
+}
+
+.tours-card-section{
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+@media only screen and (max-width: 850px){
+  .tours-card-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tour-card{
+    width: 100%;
+  }
+
+  .tour-price{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+.tour-card{
+  width: 30%;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #000000;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tour-card img{
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.tour-body h2{
+  font-size: 20px;
+}
+
+.tour-body p{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.line{
+  border: 1px solid #000000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.tour-price{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.tour-price button{
+  background-color: #ddb892;
+  border: 2px solid #ddb892;
+  width: 20%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
