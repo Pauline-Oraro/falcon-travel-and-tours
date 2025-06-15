@@ -1,0 +1,303 @@
+/*ABOUTPAGE*/
+.about-section{
+  margin-top: 100px;
+  margin-bottom: 200px;
+  width: 100%;
+}
+
+.about-section-2{
+  margin-top: 150px;
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+.about-statement{
+  width: 50%;
+  padding: 20px;
+}
+
+.about-statement h2{
+  font-size: 25px;
+}
+
+.about-statement p{
+  font-size: 18px;
+}
+
+
+.about-section-2 img{
+  width: 50%;
+  border-radius: 10px;
+  padding: 20px;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 750px){
+  .about-section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0;
+  }
+
+  .about-section-2 img, 
+  .about-statement{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+
+}
+
+
+
+
+.about-section-4{
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.about-section-4 h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-best{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.best{
+  width: 30%;
+  background-color: rgb(241, 238, 234);
+  padding: 10px;
+}
+
+.best h3{
+  text-align: center;
+}
+
+.best p{
+  text-align: center;
+}
+
+.popular-section{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 100px 0px;
+}
+
+.popular-card{
+  width: 50%;
+  display: flex;
+  background-color: rgb(241, 238, 234);
+  border-radius: 10px;
+  
+}
+
+.popular-card img{
+  width: 50%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.popular-body h3{
+  color: #ddb892;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.popular-body h2{
+  font-size: 18px;
+  padding: 5px;
+}
+
+.popular-price{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 5px;
+}
+
+.popular-price button{
+  background-color: #ddb892;
+  border: 2px solid #ddb892;
+  width: 50%;
+  height: 50px;
+  border-radius: 10px;
+  
+}
+
+.about-destinations{
+  margin: 50px 0;
+  display: flex;
+
+  width: 100%;
+}
+
+.about-destinations img{
+  width: 50%;
+}
+
+.destinations{
+  width: 50%;
+  background-color: #ddb892;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.destinations p{
+  font-size: 16px;
+}
+
+.destinations button{
+  background-color: #000000;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  height: 40px;
+  width: 40%;
+}
+
+.destinations button a{
+  color: #ffffff;
+}
+
+
+@media only screen and (max-width:750px){
+  .about-best{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+  .best{
+    width: 80%;
+}
+
+  .popular-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin: 10px;
+}
+
+  .popular-card img{
+  width: 100%;
+}
+.popular-body{
+    padding: 10px;
+}
+
+  .about-destinations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-destinations img{
+    width: 100%;
+  }
+  .destinations{
+    width: 100%;
+  }
+}
+
+
+
+.about-section-5{ 
+  margin: 30px 0;
+}
+
+.about-section-5 h2{
+  text-align: center;
+  font-size: 25px;
+}
+
+.about-reasons{
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.about-reasons p{
+  width: 50%;
+  font-size: 18px;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 750px){
+  .about-reasons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .about-reasons p{
+   
+    width: 100%;
+  }
+  .reasons
+  .reasons-card{
+    width: 100%;
+  }
+  .reasons-section{
+    padding: 0;
+    margin: 0;
+  }
+  
+}
+
+.reasons{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+
+
+.reasons-section{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  
+}
+
+.reasons-card{
+  background-color: #ddb892;
+  width: 50%;
+  border-radius: 10px;
+
+}
+
+.reasons-card h3{
+  font-size: 18px;
+  text-align: center;
+}
+
+
+
+/*BLOGS SECTION IN THE HOMEPAGE AND ABOUTPAGE*/
+
+.about-blogs{
+  margin: 10% 0;
+}
+
+.about-blogs h2{
+  text-align: center;
+  font-size: 24px;
+  margin-top: 50px;
+}

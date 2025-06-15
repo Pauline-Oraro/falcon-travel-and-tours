@@ -1,4 +1,5 @@
 import {Link} from "react-router-dom";
+import "../css/about.css";
 import HeroImage from "../assets/images/hero-image.jpg";
 import Wild from "../assets/images/falcon-travel-and-tours-in-the-wild.jpg"
 import MasaaiMara from "../assets/images/masai-mara.jpg";
@@ -21,8 +22,8 @@ const AboutPage = () =>{
 
             <div className="about-section-2">
                 <div className="about-statement">
-                <h1>Welcome to Falcon Travel and Tours: Your Gateway to Kenya and Tanzania.</h1>
-                <p>At Falcon Travel and Tours, we specialize in creating unforgettable travel experiences across the landscapes of Kenya and Tanzania. With years of experience in the tourism industry, we pride ourselves on immersive travel experiences that showcase the best of Kenya and Tanzania. We are a premier tour and travel company specializing in exceptional travel experiences across the breathtaking landscapes of Kenya and Tanzania. Falcon Travel & Tours was founded by a team of travel enthusiasts who share a love for Africa's rich heritage and natural beauty.</p>
+                <h2>Welcome to Falcon Travel and Tours: Your Gateway to Kenya and Tanzania.</h2>
+                <p>At Falcon Travel and Tours, we specialize in creating unforgettable travel experiences across the landscapes of Kenya and Tanzania. With years of experience in the tourism industry, we pride ourselves on immersive travel experiences that showcase the best of Kenya and Tanzania. We are a premier tour and travel company specializing in exceptional travel experiences across the breathtaking landscapes of Kenya and Tanzania. Falcon Travel & Tours was founded by a team of travel enthusiasts who share a love for Africa&apos;s rich heritage and natural beauty.</p>
                 </div>
                 <img src={Wild} alt="Falcon Travel and tours in the wild" />
             </div>
@@ -30,7 +31,7 @@ const AboutPage = () =>{
             <div className="about-section-3"></div>
 
             <div className="about-section-4">
-                <h1>Why Falcon Travel and Tours Is The Best</h1>
+                <h2>Why Falcon Travel and Tours Is The Best</h2>
                 <div className="about-best">
                     <div className="best">
                         <h3>Worldwide Coverage</h3>
@@ -65,8 +66,10 @@ const AboutPage = () =>{
                     <div className="popular-body">
                         <h3>POPULAR</h3>
                         <h2>Masaai Mara National Park</h2>
+                        
                         <div className="popular-price">
-                            <p>Starting from Ksh 0/=</p>
+                            
+                            
                             <button>
                                 <Link to="/contact">Book a trip</Link>
                             </button>
@@ -90,7 +93,7 @@ const AboutPage = () =>{
             </div>
 
             <div className="about-section-5">
-                <h1>Why Travel With Falcon Travel and Tours </h1>
+                <h2>Why Travel With Falcon Travel and Tours </h2>
                 <div className="about-reasons">
                     <p>When it comes to exploring the wonders of Kenya and Tanzania, you deserve a travel partner who understands your needs and ensures every detail of your journey is flawless. At Falcon Tours & Safaris, we pride ourselves on delivering exceptional experiences that are as unique as you are. Here’s why we’re the perfect choice for your East African adventure:</p>
 
@@ -104,8 +107,6 @@ const AboutPage = () =>{
                             <h3>Seamless Travel Planning.</h3>
                             
                         </div>
-                    </div>
-                    <div className="reasons-section-2">
                         <div className="reasons-card">
                             <h3>Safety and Comfort Guaranteed.</h3>
                             
@@ -114,7 +115,8 @@ const AboutPage = () =>{
                             <h3>Transparent Pricing</h3>
                             
                         </div>
-                    </div>  
+                    </div>
+                     
                 </div>
                 </div>
                 
