@@ -31,13 +31,13 @@ const ToursPage = () =>{
                         <div className="tour-body">
                             <h2>Masaai Mara National Park</h2>
                             <p>Read More....</p>
-                            <div className="line"></div>
-                            <div className="tour-price">
-                                <p>Starting from Ksh 0/=</p>
+                           
+                            
+                                
                                 <button>
                                     <Link to="/contact">BOOK A TRIP</Link>
                                 </button>
-                            </div>
+                           
                         </div>
                     </div>
 
@@ -45,14 +45,14 @@ const ToursPage = () =>{
                         <img src={Amboseli} alt="Falcon Travel and Tours in Amboseli National Park"/>
                         <div className="tour-body">
                             <h2>Amboseli National Park</h2>
+                           
                             <p>Read More....</p>
-                            <div className="line"></div>
-                            <div className="tour-price">
-                                <p>Starting from Ksh 0/=</p>
+                           
+                               
                                 <button>
                                     <Link to="/contact">BOOK A TRIP</Link>
                                 </button>
-                            </div>
+                            
                         </div>
                     </div>
 
@@ -61,13 +61,13 @@ const ToursPage = () =>{
                         <div className="tour-body">
                             <h2>Samburu Game reserve</h2>
                             <p>Read More....</p>
-                            <div className="line"></div>
-                            <div className="tour-price">
-                                <p>Starting from Ksh 0/=</p>
+                            
+                           
+                                
                                 <button>
                                     <Link to="/contact">BOOK A TRIP</Link>
                                 </button>
-                            </div>
+                            
                         </div>
                     </div>
 
@@ -77,12 +77,12 @@ const ToursPage = () =>{
                             <h2>Lake Nakuru National Park</h2>
                             <p>Read More....</p>
                             <div className="line"></div>
-                            <div className="tour-price">
-                                <p>Starting from Ksh 0/=</p>
+                           
+                                
                                 <button>
                                     <Link to="/contact">BOOK A TRIP</Link>
                                 </button>
-                            </div>
+                            
                         </div>
                     </div>
 
@@ -92,12 +92,12 @@ const ToursPage = () =>{
                             <h2>Tsavo East National Park</h2>
                             <p>Read More....</p>
                             <div className="line"></div>
-                            <div className="tour-price">
-                                <p>Starting from Ksh 0/=</p>
+                           
+                               
                                 <button>
                                     <Link to="/contact">BOOK A TRIP</Link>
                                 </button>
-                            </div>
+                           
                         </div>
                     </div>
 
@@ -107,12 +107,12 @@ const ToursPage = () =>{
                             <h2>Tsavo West National Park</h2>
                             <p>Read More....</p>
                             <div className="line"></div>
-                            <div className="tour-price">
-                                <p>Starting from Ksh 0/=</p>
+                           
+                               
                                 <button>
                                     <Link to="/contact">BOOK A TRIP</Link>
                                 </button>
-                            </div>
+                           
                         </div>
                     </div>
 
@@ -122,12 +122,12 @@ const ToursPage = () =>{
                             <h2>Serengeti National Park</h2>
                             <p>Read More....</p>
                             <div className="line"></div>
-                            <div className="tour-price">
-                                <p>Starting from Ksh 0/=</p>
+                            
+                               
                                 <button>
                                     <Link to="/contact">BOOK A TRIP</Link>
                                 </button>
-                            </div>
+                            
                         </div>
                     </div>
 
@@ -137,12 +137,12 @@ const ToursPage = () =>{
                             <h2>Hells Gate National Park</h2>
                             <p>Read More....</p>
                             <div className="line"></div>
-                            <div className="tour-price">
-                                <p>Starting from Ksh 0/=</p>
+                           
+                                
                                 <button>
                                     <Link to="/contact">BOOK A TRIP</Link>
                                 </button>
-                            </div>
+                           
                         </div>
                     </div>
 
@@ -152,12 +152,12 @@ const ToursPage = () =>{
                             <h2>Meru National Park</h2>
                             <p>Read More....</p>
                             <div className="line"></div>
-                            <div className="tour-price">
-                                <p>Starting from Ksh 0/=</p>
+                            
+                               
                                 <button>
                                     <Link to="/contact">BOOK A TRIP</Link>
                                 </button>
-                            </div>
+                           
                         </div>
                     </div>
 
